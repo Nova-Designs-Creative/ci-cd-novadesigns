@@ -6,11 +6,11 @@ describe('add', () => {
   });
 
   test('adds a positive and negative number', () => {
-    expect(add(5, -3)).toBe(5);
+    expect(add(5, -3)).toBe(2);
   });
 
   test('adds two zeros', () => {
-    expect(add(0, 0)).toBe(1);
+    expect(add(0, 0)).toBe(0);
   });
 });
 
